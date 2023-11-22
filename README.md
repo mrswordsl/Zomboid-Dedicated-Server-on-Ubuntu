@@ -1,4 +1,4 @@
-# Zomboid-Server-on-Ubuntu
+# Zomboid Server на Ubuntu
 Установка Project Zomboid Dedicated Server на Ubuntu Server LTS 22.04.3
 
 ### Команды для установки
