@@ -1,4 +1,4 @@
-# Zomboid-Dedicated-Server-on-Ubuntu
+# Zomboid-Server-on-Ubuntu
 Установка Project Zomboid Dedicated Server на Ubuntu Server LTS 22.04.3
 
 ### Команды для установки
@@ -32,7 +32,7 @@ Steam>app_update 380870 validate
 "your_user"@server:~$ ./start_server.sh
 ```
 
-Во время обновления клиента Steam может возникнуть следующая ошибка
+Во время обновления клиента Steam может возникнуть следующая ошибка:
 
 `Loading Steam API...dlmopen steamservice.so failed: steamservice.so: cannot open shared object file: No such file or directory`
 
