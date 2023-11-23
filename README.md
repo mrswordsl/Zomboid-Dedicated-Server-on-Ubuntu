@@ -10,8 +10,8 @@ user@server:~$ sudo add-apt-repository multiverse
 user@server:~$ sudo dpkg --add-architecture i386
 user@server:~$ sudo apt update
 user@server:~$ sudo apt install lib32z1 lib32gcc-s1 libstdc++6:i386 gcc-multilib mc steamcmd software-properties-common -y
-"your_user"@server:~$ sudo ufw allow 166261/UDP
-"your_user"@server:~$ sudo ufw allow 166262/UDP
+"your_user"@server:~$ sudo ufw allow 16261/UDP
+"your_user"@server:~$ sudo ufw allow 16262/UDP
 "your_user"@server:~$ sudo ufw allow 8766/UDP
 "your_user"@server:~$ sudo ufw allow 8767/udp
 user@server:~$ sudo adduser "your_user"
