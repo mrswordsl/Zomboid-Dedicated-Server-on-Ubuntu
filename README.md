@@ -1,6 +1,8 @@
 # Zomboid Server на Ubuntu
 Установка Project Zomboid Dedicated Server на Ubuntu Server LTS 22.04.3
 
+Скрипт `minimal-install.sh` автоматические выполняет установку всех пакетов и настройку портов
+
 ### Проверенные системы:
 - Ubuntu Server 20.04.1
 - Ubuntu Server 22.04.3
