@@ -33,7 +33,7 @@
 
 `sudo ufw allow 8767/udp`
 
-⚠️ После выполнения скрипта продолжать отсюда `sudo adduser "your_user"`
+⚠️ После выполнения скрипта продолжать отсюда\n `sudo adduser "your_user"`
 
 `su - "your_user"`
 
