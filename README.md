@@ -27,17 +27,17 @@ Steam>*Steam Guard Code*
 
 или
 
-`
+```
 ///
 Steam>login anonymous
-'
+```
 
 Далее:
 
-'
+```
 Steam>app_update 380870 validate
 "your_user"@server:~$ ./start_server.sh
-`
+```
 
 Во время обновления клиента Steam может возникнуть следующая ошибка:
 
