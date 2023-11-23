@@ -1,45 +1,33 @@
 # Zomboid Server на Ubuntu
 Установка Project Zomboid Dedicated Server на Ubuntu Server LTS 22.04.3
 
+### Проверенные системы:
+- Ubuntu Server 20.04.1
+- Ubuntu Server 22.04.3
+
 ### Команды для установки
 
-```
-user@server:~$ sudo apt-get update
-user@server:~$ sudo apt-get upgrade -y
-user@server:~$ sudo add-apt-repository multiverse
-user@server:~$ sudo dpkg --add-architecture i386
-user@server:~$ sudo apt update
-user@server:~$ sudo apt install lib32z1 lib32gcc-s1 libstdc++6:i386 gcc-multilib mc steamcmd software-properties-common -y
-"your_user"@server:~$ sudo ufw allow 16261/udp
-"your_user"@server:~$ sudo ufw allow 16262/udp
-"your_user"@server:~$ sudo ufw allow 8766/udp
-"your_user"@server:~$ sudo ufw allow 8767/udp
-user@server:~$ sudo adduser "your_user"
-user@server:~$ su - "your_user"
-"your_user"@server:~$ mkdir pzserver
-"your_user"@server:~$ cd /pzserver
-"your_user"@server:~/pzserver$ steamcmd
-Steam>force_install_dir /home/*user*/pzserver/
 
-Steam>login *steam_user*
-Steam>*password*
-Steam>*Steam Guard Code*
-```
-
-или
-
-```
-///
-Steam>login anonymous
-```
-
-Далее:
-
-```
-Steam>app_update 380870 validate
-Steam>exit
-"your_user"@server:~/pzserver$ ./start_server.sh
-```
+`sudo apt-get update`
+`sudo apt-get upgrade -y`
+`sudo add-apt-repository multiverse`
+`sudo dpkg --add-architecture i386`
+`sudo apt update`
+`sudo apt install lib32z1 lib32gcc-s1 libstdc++6:i386 gcc-multilib mc steamcmd software-properties-common -y`
+`sudo ufw allow 16261/udp`
+`sudo ufw allow 16262/udp`
+`sudo ufw allow 8766/udp`
+`sudo ufw allow 8767/udp`
+`sudo adduser "your_user"`
+`su - "your_user"`
+`mkdir pzserver`
+`cd /pzserver`
+`steamcmd`
+`force_install_dir /home/*user*/pzserver/`
+`login anonymous`
+`app_update 380870 validate`
+`exit`
+`sudo ./start_server.sh`
 
 Во время обновления клиента Steam может возникнуть следующая ошибка:
 
