@@ -1,6 +1,6 @@
 #!/bin/bash
-apt-get update -y
-apt-get upgrade -y
+apt update -y
+apt upgrade -y
 add-apt-repository multiverse
 dpkg --add-architecture i386
 apt update
