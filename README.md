@@ -10,6 +10,10 @@ user@server:~$ sudo add-apt-repository multiverse
 user@server:~$ sudo dpkg --add-architecture i386
 user@server:~$ sudo apt update
 user@server:~$ sudo apt install lib32z1 lib32gcc-s1 libstdc++6:i386 gcc-multilib mc steamcmd software-properties-common -y
+"your_user"@server:~$ sudo ufw allow 166261/UDP
+"your_user"@server:~$ sudo ufw allow 166262/UDP
+"your_user"@server:~$ sudo ufw allow 8766/UDP
+"your_user"@server:~$ sudo ufw allow 8767/udp
 user@server:~$ sudo adduser "your_user"
 user@server:~$ su - "your_user"
 "your_user"@server:~$ mkdir pzserver
@@ -19,8 +23,6 @@ Steam>force_install_dir /home/*user*/pzserver/
 Steam>login *steam_user*
 Steam>*password*
 Steam>*Steam Guard Code*
-Steam>app_update 380870 validate
-"your_user"@server:~$ ./start_server.sh
 ```
 
 или
@@ -28,6 +30,11 @@ Steam>app_update 380870 validate
 ```
 ///
 Steam>login anonymous
+'''
+
+Далее:
+
+'''
 Steam>app_update 380870 validate
 "your_user"@server:~$ ./start_server.sh
 ```
