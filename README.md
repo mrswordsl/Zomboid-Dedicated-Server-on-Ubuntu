@@ -44,7 +44,7 @@
 
 `mkdir pzserver`
 
-`cd /pzserver`
+`cd pzserver`
 
 `steamcmd`
 
