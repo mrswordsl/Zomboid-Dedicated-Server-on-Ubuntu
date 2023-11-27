@@ -56,7 +56,7 @@
 
 `exit`
 
-`sudo ./start_server.sh`
+`./start_server.sh`
 
 Во время обновления клиента Steam может возникнуть следующая ошибка:
 
