@@ -5,9 +5,9 @@
 `minimal-install.sh` автоматически выполняет установку всех пакетов и настройку портов
 Чтобы запустить скрипт выполните следующие команды
 
-`sudo chmod +x minimal_install.sh`
+`sudo chmod +x minimal-install.sh`
 
-`sudo ./minimal_install.sh`
+`sudo ./minimal-install.sh`
 
 Если вы запускаете скрипт, то после его завершения следует продолжать с команды `sudo adduser "your_user"`
 
